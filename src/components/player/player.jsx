@@ -1,11 +1,12 @@
 import { use, useState } from 'react';
 import AvailablePlayers from '../availablePlayers/AvailablePlayers';
-import SelectedPlayers from '../selectedPlayers/SelectedPlayers';
+import SelectedPlayers from '../selectedPlayers/SelectedPlayers'
 
 const player = ({playersPromise, setCoin, coin}) => {
     const players = use(playersPromise);
     const [selectedType, setSelectedType] = useState('available');
     console.log(selectedType, 'selectedType');
+     const [selectedPlayers, setSelectedPlayers] = useState([]);
     return (
         <div className='container mx-auto my-15'>
           
@@ -18,7 +19,14 @@ const player = ({playersPromise, setCoin, coin}) => {
             </div>
           </div>
 
-          { selectedType === 'available' ? ( <AvailablePlayers players={players} setCoin={setCoin} coin={coin}></AvailablePlayers>) : ( <SelectedPlayers></SelectedPlayers> )}
+          { selectedType === 'available' ?
+           ( <AvailablePlayers players={players} setCoin={setCoin} coin={coin}  
+            setSelectedPlayers={ setSelectedPlayers} 
+           SelectedPlayers={SelectedPlayers}>
+           </AvailablePlayers>) : 
+           ( <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers> )}
+          
+           
         </div>
     );
 };
