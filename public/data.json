@@ -6,7 +6,7 @@
     "rating": 9.8,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": 1500000,
+    "price": 5000,
     "playerImage": "https://i.ibb.co.com/h3D4MmP/images.webp"
   },
   {
@@ -16,7 +16,7 @@
     "rating": 9.6,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 1400000,
+    "price": 20000,
     "playerImage": "https://i.ibb.co.com/S4PpHKfz/licensed-image2.webp"
   },
   {
@@ -26,7 +26,7 @@
     "rating": 9.5,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": 1450000,
+    "price": 14500,
     "playerImage": "https://i.ibb.co.com/sdptM7j2/licensed-image3.webp"
   },
   {
@@ -36,7 +36,7 @@
     "rating": 9.4,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 1300000,
+    "price": 13000,
     "playerImage": "https://i.ibb.co.com/93d8r303/download.webp"
   },
   {
@@ -46,7 +46,7 @@
     "rating": 9.7,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": 1350000,
+    "price": 13500,
     "playerImage": "https://i.ibb.co.com/PvGCkx2K/download-1.webp"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 9.3,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "price": 1250000,
+    "price": 12500,
     "playerImage": "https://i.ibb.co.com/nN127FK0/download-2.webp"
   },
   {
@@ -66,7 +66,7 @@
     "rating": 9.2,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 1200000,
+    "price": 12000,
     "playerImage": "https://i.ibb.co.com/jkNCqq50/images-1.webp"
   },
   {
@@ -76,7 +76,7 @@
     "rating": 9.6,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak googly",
-    "price": 1400000,
+    "price": 1400,
     "playerImage": "https://i.ibb.co.com/sv9zBQ5y/images-2.webp"
   },
   {
@@ -86,7 +86,7 @@
     "rating": 9.1,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": 1100000,
+    "price": 900,
     "playerImage": "https://i.ibb.co.com/0RX3FK5d/download-3.webp"
   },
   {
@@ -96,7 +96,7 @@
     "rating": 9.0,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "None",
-    "price": 1150000,
+    "price": 1150,
     "playerImage": "https://i.ibb.co.com/k24xGCcf/download-4.webp"
   }
 ]

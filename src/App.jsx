@@ -4,6 +4,7 @@ import './App.css'
 import Banner from './components/homepage/Banner'
 import Navber from './components/navber/Navber'
 import Player from './components/player/Player';
+import { useState } from 'react';
 
 const fetchPlayer = async()=>{
   const res = await fetch('/data.json');
@@ -13,14 +14,15 @@ const fetchPlayer = async()=>{
 function App() {
 
   const playersPromise = fetchPlayer();
+  const [coin, setCoin] = useState(50000)
   
 
   return (
     <>
-     <Navber></Navber>
+     <Navber coin={coin} ></Navber>
      <Banner></Banner>
      <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
-      <Player playersPromise={playersPromise}></Player>
+      <Player playersPromise={playersPromise} setCoin={setCoin} coin={coin} ></Player>
      </Suspense>
     </>
   )

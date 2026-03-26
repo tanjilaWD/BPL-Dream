@@ -4,7 +4,7 @@ import { FaFlag } from "react-icons/fa";
 import player from './../player/Player';
 import Card from '../ui/Card';
 
-const AvailablePlayers = ({players}) => {
+const AvailablePlayers = ({players, setCoin, coin}) => {
   
     return (
     <div>
@@ -13,7 +13,7 @@ const AvailablePlayers = ({players}) => {
        players.map(player => {
           
          return (
-           <Card player={player}></Card>
+           <Card player={player} setCoin={setCoin} coin={coin}></Card>
          ) ;
         })}
     </div>
