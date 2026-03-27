@@ -3,7 +3,7 @@ import React from 'react';
 import { MdDelete } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 
-const SelectedPlayers = ({selectedPlayers, setSelectedPlayers}) => {
+const SelectedPlayers = ({selectedPlayers, setSelectedPlayers, setCoin, coin}) => {
     console.log(selectedPlayers, 'selectedPlayers');
     const handleDeleteSelectedPlayer = (player) =>{
         console.log(selectedPlayers, 'selectedPlayers');
@@ -11,6 +11,7 @@ const SelectedPlayers = ({selectedPlayers, setSelectedPlayers}) => {
 
         console.log(filteredPlayers, 'filteredPlayers');
         setSelectedPlayers(filteredPlayers);
+        setCoin(coin + player.price);
     }
     return (
         <div>
